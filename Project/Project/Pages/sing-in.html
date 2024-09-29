@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sing up</title>
+    <link href="Styles/sing-in.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="Scrypts/sing-in.js"></script>
+    <script src="Scrypts/navbar.js"></script>
+</head>
+<body class="body">
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="Photos/Airlines/SD Air.jpg" alt="slika kompanije sdair" class="image" />
+        </div>
+        <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+            <a href="index.html" class="w-nav-link">Početna stranice</a>
+            <a href="avio-kompanije.html" class="w-nav-link">Aviokompanije</a>
+            <a href="login.html" class="nav-link w-nav-link">Prijava</a>
+        </nav>
+    </div>
+    <section class="hero-section">
+        <div class="w-layout-blockcontainer container w-container">
+            <div class="div-wrapper">
+                <div class="div-form">
+                    <div class="form-block w-form">
+                        <form id="sing-in-form" name="sing-in-form" method="get" class="form">
+                            <label for="username" class="form-label">Korisničko ime</label>
+                            <input id="username" name="username" class="input-form w-input" maxlength="256" placeholder="Unesite korisničko ime" type="text" required/>
+
+                            <label for="password" class="form-label">Lozinka</label>
+                            <input id="password" name="password" class="input-form w-input" maxlength="256" placeholder="Unesite ime" type="password" required/>
+                           
+                            <label for="First-name" class="form-label">Ime</label>
+                            <input name="first-name" id="first-name" class="input-form w-input" maxlength="256" placeholder="Unesite ime" type="text" required/>
+                           
+                            <label class="form-label">Prezime</label>
+                            <input id="last-name" name="last-name" class="input-form w-input" maxlength="256" placeholder="Prezime" type="text" required/>
+                            
+                            <label class="form-label">Email</label>
+                            <input id="email" name="email" class="input-form w-input" maxlength="256" placeholder="Unesite email adresu" type="email" required/>
+                            
+                            <label class="form-label">Datum rođenja</label>
+                            <input id="bday" name="bday" type="date" class="date-input" required> 
+                            
+                            <label for="field-5" class="form-label">Pol</label>
+                            <select id="sex" name="sex" data-name="Field 5" class="select-form w-select" required>
+                                <option value="Muski">Muški</option>
+                                <option value="Zenski">Ženski</option>
+                            </select>
+                            <input type="submit" data-wait="Molimo vas sačekajte..." class="submit-button w-button" value="Napravi nalog" />
+                        </form>
+                    </div>
+                    <div class="create-user-acc">
+                        <p class="paragraph">Imate nalog?</p>
+                        <a href="login.html" class="button w-button">Prijavite se</a>
+                    </div>
+                </div>
+                <div class="div-color">
+                    <img src="Photos/Storyset/Flying around the world-rafiki.svg" loading="lazy" alt="covek na avijonu koji putuje oko Zemlje" />
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

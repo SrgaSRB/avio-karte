@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Upravljanje nalogom</title>
+    <link href="Styles/korisnicka-stranica.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="Scrypts/korisnicka-stranica.js"></script>
+    <script src="Scrypts/navbar.js"></script>
+</head>
+
+<body class="body">
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="Photos/Airlines/SD Air.jpg" alt="slika kompanije sdair" />
+        </div>
+        <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+            <a href="index.html" class="w-nav-link">Početna stranice</a>
+            <a href="avio-kompanije.html" class="w-nav-link">Aviokompanije</a>
+            <a href="login.html" class="nav-link w-nav-link" id="login-link">Prijava</a>
+        </nav>
+    </div>
+    <section class="section">
+        <div class="w-layout-blockcontainer container profil-container w-container">
+            <a href="#" class="logout-button w-button" id="logout-button-red">Izloguj se</a>
+            <h1>Pregled profila</h1>
+            <div class="profile-info-div">
+                <div class="form-block w-form">
+                    <form id="user-profile-settings" name="user-profile-settings" method="get" class="form-2" autocomplete="on">
+                        <label for="name">Ime</label>
+                        <input class="w-input" placeholder="Ime" name="first-name" type="text" id="user-profile-settings-name" required="" />
+                        <label for="email">Prezime</label>
+                        <input class="w-input" maxlength="256" name="last-name" placeholder="Prezime" type="text" id="user-profile-settings-last-name" required="" />
+                        <label for="field">Korisnicko ime</label>
+                        <input class="w-input" placeholder="Korisničko ime" name="username" type="text" id="user-profile-settings-username" required="" readonly />
+                        <label for="field-2">Email</label>
+                        <input class="w-input" placeholder="Email adresa" name="email" type="email" id="user-profile-settings-email" required="" />
+                        <label for="field-3">Datum rođenja</label>
+                        <input class="w-input" type="datetime" name="bday" id="user-profile-settings-dbay" required="" />
+                        <label for="field-4">Pol</label>
+                        <select name="sex" id="user-profile-settings-sex" class="w-select">
+                        </select>
+                        <label for="field-5">Tip korisnika</label>
+                        <select id="user-profile-settings-usertype" class="w-select">
+                        </select>
+                        <input type="submit" data-wait="Molimo Vas sačekajte..." class="w-button" value="Izmeni profil" />
+                    </form>
+                </div>
+                <div class="reservation-div">
+                    <div class="airline-flyghts-list-block-div">
+                        <div class="tb-and-cancel-button">
+                            <div class="text-block-3">Rezervacije</div>
+                            <div class="dropdown-and-remove-button">
+                                <select class="w-select dropdown-reservation" id="status-filter">
+                                    <option value="Svi">Svi statusi</option>
+                                    <option value="Kreirana">Kreirana</option>
+                                    <option value="Odobrena">Odobrena</option>
+                                    <option value="Otkazana">Otkazana</option>
+                                    <option value="Završena">Završena</option>
+                                </select>
+                                <a href="#" class="button w-button" id="reservation-button">Otkaži rezervaciju</a>
+                            </div>
+                        </div>
+                        <div class="airline-flights-list-div">
+                        </div>
+                        <div class="review-div-form">
+                            <div class="form-block-2 w-form">
+                                <form id="review-create-form" name="review-create-form" method="get" class="form-list-reservation-make-revirw">
+                                    <div class="review-form-text-div">
+                                        <input class="w-input" maxlength="256" name="review-create-form-title" placeholder="Naslov recenzije" type="text" id="review-title" />
+                                        <textarea name="review-create-form-description"
+                                                  placeholder="Opis recenzije. Npr utisci o letu, osoblju, hrani u avionu itd.."
+                                                  maxlength="5000" class="textarea w-input" id="review-description"></textarea>
+                                    </div>
+                                    <input type="submit" data-wait="Molimo Vas sačekajte..." class="submit-button w-button"
+                                           value="Napravi recenziju" />
+                                        <input type="file" name="image" id="import-image" accept="image/*">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

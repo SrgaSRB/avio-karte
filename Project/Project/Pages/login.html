@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login in</title>
+    <link href="Styles/log-in.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="Scrypts/login.js"></script>
+    <script src="Scrypts/navbar.js"></script>
+</head>
+<body class="body">
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="Photos/Airlines/SD Air.jpg" alt="slika kompanije sdair" class="image" />
+        </div>
+        <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+            <a href="index.html" class="w-nav-link">Početna stranice</a>
+            <a href="avio-kompanije.html" class="w-nav-link">Aviokompanije</a>
+            <a href="login.html" class="nav-link w-nav-link">Prijava</a>
+        </nav>
+    </div>
+    <section class="hero-section">
+        <div class="w-layout-blockcontainer container w-container">
+            <div class="div-wrapper">
+                <div class="div-color">
+                    <img src="Photos/Storyset/Flying around the world-amico.svg" loading="lazy" alt="Slika avioma koji se okreće oko Zemlje" />
+                </div>
+                <div class="div-form">
+                    <div class="form-block w-form">
+                        <form id="login-in-form" name="login-in-form" method="get" class="form">
+                            <label>Korisničko ime</label>
+                            <input class="w-input" placeholder="Unesite korisničko ime" type="text" id="username" required="" />
+                            <label for="password">Lozinka</label>
+                            <input class="w-input" name="password" data-name="password" placeholder="Unesite lozinku" type="password" id="password" required="" />
+                            <input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Prijavi se" />
+                        </form>
+                    </div>
+                    <div class="create-user-acc">
+                        <p class="paragraph">Nemate nalog?</p>
+                        <a href="sing-in.html" class="button w-button">Napravi novi nalog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

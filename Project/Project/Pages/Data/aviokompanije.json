@@ -1,0 +1,697 @@
+[
+  {
+    "Name": "Air Serbia",
+    "Adress": "airserbia@gmail.com",
+    "ContactInfo": "+381 11 1234 567",
+    "Id": 1,
+    "IsDeleted": false,
+    "Flights": [
+      {
+        "Airline": "Air Serbia",
+        "Id": 1,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Dublin",
+        "DepartureDate": "25/10/2024 14:00",
+        "ArrivalDate": "25/10/2024 16:30",
+        "FreeSeats": 21,
+        "OccupatedSeats": 179,
+        "TotalSeats": 200,
+        "Price": 14999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 2,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Barcelona",
+        "DepartureDate": "28/08/2024 10:00",
+        "ArrivalDate": "28/08/2024 12:30",
+        "FreeSeats": 20,
+        "OccupatedSeats": 180,
+        "TotalSeats": 200,
+        "Price": 15999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 3,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Barcelona",
+        "DepartureDate": "10/08/2024 10:00",
+        "ArrivalDate": "10/08/2024 12:30",
+        "FreeSeats": 18,
+        "OccupatedSeats": 182,
+        "TotalSeats": 200,
+        "Price": 25999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 4,
+        "InitDest": "Beograd",
+        "OutgoingDest": "New York",
+        "DepartureDate": "30/08/2024 17:00",
+        "ArrivalDate": "30/08/2024 22:00",
+        "FreeSeats": 13,
+        "OccupatedSeats": 187,
+        "TotalSeats": 200,
+        "Price": 39999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 5,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Moskva",
+        "DepartureDate": "02/09/2024 13:00",
+        "ArrivalDate": "02/09/2024 18:00",
+        "FreeSeats": 10,
+        "OccupatedSeats": 190,
+        "TotalSeats": 200,
+        "Price": 17999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 6,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Tokio",
+        "DepartureDate": "05/09/2024 20:00",
+        "ArrivalDate": "06/09/2024 15:00",
+        "FreeSeats": 5,
+        "OccupatedSeats": 195,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 27,
+        "InitDest": "Apatin",
+        "OutgoingDest": "Sombor",
+        "DepartureDate": "31/08/2024 00:34",
+        "ArrivalDate": "31/08/2024 03:34",
+        "FreeSeats": 123,
+        "OccupatedSeats": 0,
+        "TotalSeats": 123,
+        "Price": 1000.0,
+        "IsDeleted": true,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 28,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Tokio",
+        "DepartureDate": "15/09/2024 20:00",
+        "ArrivalDate": "16/09/2024 15:00",
+        "FreeSeats": 100,
+        "OccupatedSeats": 100,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Air Serbia",
+        "Id": 29,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Moskva",
+        "DepartureDate": "18/09/2024 20:00",
+        "ArrivalDate": "19/09/2024 15:00",
+        "FreeSeats": 200,
+        "OccupatedSeats": 0,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      }
+    ],
+    "Reviews": [
+      {
+        "User": "Jovan Jovanović",
+        "Airline": "AirSerbia",
+        "Title": "Odličan let!",
+        "Description": "Usmereni letovi i odlična usluga. Vratiću se ponovo.",
+        "Id": 1,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija1.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Ana Milenković",
+        "Airline": "AirSerbia",
+        "Title": "Prosečno iskustvo",
+        "Description": "Služba za korisnike može biti bolja. Let je bio u redu.",
+        "Id": 2,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija2.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Marko Petrović",
+        "Airline": "AirSerbia",
+        "Title": "Loša iskustva",
+        "Description": "Kasnjenje leta i neprijatna posada. Ne preporučujem.",
+        "Id": 3,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija3.jpg",
+        "Status": "Odbijena"
+      },
+      {
+        "User": "Ivana Novak",
+        "Airline": "AirSerbia",
+        "Title": "Izvanredno iskustvo",
+        "Description": "Vrlo prijatno. Komforni sedišta i ljubazno osoblje.",
+        "Id": 4,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija4.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Petar Radosavljević",
+        "Airline": "AirSerbia",
+        "Title": "Dobro, ali može bolje",
+        "Description": "Kvalitet usluge nije bio na očekivanom nivou. Nisu bili dostupni informacije o letu.",
+        "Id": 5,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija5.jpg",
+        "Status": "Kreirana"
+      }
+    ]
+  },
+  {
+    "Name": "Turkish Airlines",
+    "Adress": "turkishairlines@gmail.com",
+    "ContactInfo": "+90 212 123 4567",
+    "Id": 2,
+    "IsDeleted": false,
+    "Flights": [
+      {
+        "Airline": "Turkish Airlines",
+        "Id": 7,
+        "InitDest": "Istanbul",
+        "OutgoingDest": "London",
+        "DepartureDate": "26/08/2024 09:00",
+        "ArrivalDate": "26/08/2024 11:30",
+        "FreeSeats": 40,
+        "OccupatedSeats": 160,
+        "TotalSeats": 200,
+        "Price": 12999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Turkish Airlines",
+        "Id": 8,
+        "InitDest": "Istanbul",
+        "OutgoingDest": "Dubai",
+        "DepartureDate": "29/08/2024 16:00",
+        "ArrivalDate": "29/08/2024 23:00",
+        "FreeSeats": 35,
+        "OccupatedSeats": 165,
+        "TotalSeats": 200,
+        "Price": 15999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Turkish Airlines",
+        "Id": 9,
+        "InitDest": "Istanbul",
+        "OutgoingDest": "New York",
+        "DepartureDate": "01/09/2024 12:00",
+        "ArrivalDate": "01/09/2024 19:00",
+        "FreeSeats": 20,
+        "OccupatedSeats": 180,
+        "TotalSeats": 200,
+        "Price": 34999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Turkish Airlines",
+        "Id": 10,
+        "InitDest": "Istanbul",
+        "OutgoingDest": "Rome",
+        "DepartureDate": "04/09/2024 14:00",
+        "ArrivalDate": "04/09/2024 15:30",
+        "FreeSeats": 45,
+        "OccupatedSeats": 155,
+        "TotalSeats": 200,
+        "Price": 11999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Turkish Airlines",
+        "Id": 11,
+        "InitDest": "Istanbul",
+        "OutgoingDest": "Tokyo",
+        "DepartureDate": "07/09/2024 21:00",
+        "ArrivalDate": "08/09/2024 18:00",
+        "FreeSeats": 10,
+        "OccupatedSeats": 190,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      }
+    ],
+    "Reviews": [
+      {
+        "User": "Ahmet Yılmaz",
+        "Airline": "Turkish Airlines",
+        "Title": "Odličan let!",
+        "Description": "Let je bio na vreme, a usluga je bila izvanredna.",
+        "Id": 6,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija6.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Elif Demir",
+        "Airline": "Turkish Airlines",
+        "Title": "Vrlo prijatno",
+        "Description": "Usluga je bila dobra, ali su mogla biti bolja sedišta.",
+        "Id": 7,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija7.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Mehmet Kaya",
+        "Airline": "Turkish Airlines",
+        "Title": "Niske usluge",
+        "Description": "Posada nije bila ljubazna, a let je kasnio.",
+        "Id": 8,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija8.jpg",
+        "Status": "Odbijena"
+      },
+      {
+        "User": "Ayşe Çelik",
+        "Airline": "Turkish Airlines",
+        "Title": "Udoban let",
+        "Description": "Komforni sedišta i odlična hrana.",
+        "Id": 9,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija9.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Ali Vural",
+        "Airline": "Turkish Airlines",
+        "Title": "Dobar, ali može bolje",
+        "Description": "Let je bio dobar, ali sam imao problema sa rezervacijom.",
+        "Id": 10,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija10.jpg",
+        "Status": "Kreirana"
+      }
+    ]
+  },
+  {
+    "Name": "SD Air",
+    "Adress": "sdair@gmail.com",
+    "ContactInfo": "+381 11 2345 678",
+    "Id": 3,
+    "IsDeleted": false,
+    "Flights": [
+      {
+        "Airline": "SD Air",
+        "Id": 12,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Berlin",
+        "DepartureDate": "27/08/2024 11:00",
+        "ArrivalDate": "27/08/2024 13:30",
+        "FreeSeats": 30,
+        "OccupatedSeats": 170,
+        "TotalSeats": 200,
+        "Price": 13999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "SD Air",
+        "Id": 13,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Viena",
+        "DepartureDate": "30/08/2024 08:00",
+        "ArrivalDate": "30/08/2024 09:30",
+        "FreeSeats": 25,
+        "OccupatedSeats": 175,
+        "TotalSeats": 200,
+        "Price": 12999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "SD Air",
+        "Id": 14,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Ljubljana",
+        "DepartureDate": "02/09/2024 12:00",
+        "ArrivalDate": "02/09/2024 13:30",
+        "FreeSeats": 35,
+        "OccupatedSeats": 165,
+        "TotalSeats": 200,
+        "Price": 10999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "SD Air",
+        "Id": 15,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Budimpešta",
+        "DepartureDate": "05/09/2024 14:00",
+        "ArrivalDate": "05/09/2024 15:30",
+        "FreeSeats": 19,
+        "OccupatedSeats": 181,
+        "TotalSeats": 200,
+        "Price": 11999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "SD Air",
+        "Id": 16,
+        "InitDest": "Beograd",
+        "OutgoingDest": "Madrid",
+        "DepartureDate": "08/09/2024 16:00",
+        "ArrivalDate": "08/09/2024 19:00",
+        "FreeSeats": 15,
+        "OccupatedSeats": 185,
+        "TotalSeats": 200,
+        "Price": 14999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      }
+    ],
+    "Reviews": [
+      {
+        "User": "Milan Kostić",
+        "Airline": "SD Air",
+        "Title": "Brz i efikasan let",
+        "Description": "Brza usluga i odlična tačnost. Preporučujem.",
+        "Id": 11,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija11.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Dragana Janković",
+        "Airline": "SD Air",
+        "Title": "Prosečno iskustvo",
+        "Description": "Nema ništa posebno, ali je sve bilo u redu.",
+        "Id": 12,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija12.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Jelena Šarić",
+        "Airline": "SD Air",
+        "Title": "Neprijatno",
+        "Description": "Posada nije bila ljubazna i let je kasnio.",
+        "Id": 13,
+        "ImagePath": "/Pages/Photos/Reviews/recenzija13.jpg",
+        "Status": "Odbijena"
+      },
+      {
+        "User": "Stefan Ilić",
+        "Airline": "SD Air",
+        "Title": "Udoban let",
+        "Description": "Komforni sedišta i dobar kvalitet usluge.",
+        "Id": 14,
+        "ImagePath": "/slike/recenzija14.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Ivana Mladenović",
+        "Airline": "SD Air",
+        "Title": "Moglo je bolje",
+        "Description": "Neke usluge nisu bile na očekivanom nivou.",
+        "Id": 15,
+        "ImagePath": "/slike/recenzija15.jpg",
+        "Status": "Kreirana"
+      }
+    ]
+  },
+  {
+    "Name": "Japan Airlines",
+    "Adress": "japanairlines@gmail.com",
+    "ContactInfo": "+81 3 1234 5678",
+    "Id": 4,
+    "IsDeleted": false,
+    "Flights": [
+      {
+        "Airline": "Japan Airlines",
+        "Id": 17,
+        "InitDest": "Tokyo",
+        "OutgoingDest": "San Francisco",
+        "DepartureDate": "24/08/2024 10:00",
+        "ArrivalDate": "24/08/2024 06:00",
+        "FreeSeats": 20,
+        "OccupatedSeats": 180,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Japan Airlines",
+        "Id": 18,
+        "InitDest": "Tokyo",
+        "OutgoingDest": "Seul",
+        "DepartureDate": "27/08/2024 13:00",
+        "ArrivalDate": "27/08/2024 15:30",
+        "FreeSeats": 25,
+        "OccupatedSeats": 175,
+        "TotalSeats": 200,
+        "Price": 18999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Japan Airlines",
+        "Id": 19,
+        "InitDest": "Tokyo",
+        "OutgoingDest": "Londonski",
+        "DepartureDate": "30/08/2024 09:00",
+        "ArrivalDate": "30/08/2024 16:00",
+        "FreeSeats": 30,
+        "OccupatedSeats": 170,
+        "TotalSeats": 200,
+        "Price": 39999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Japan Airlines",
+        "Id": 20,
+        "InitDest": "Tokyo",
+        "OutgoingDest": "Sydney",
+        "DepartureDate": "02/09/2024 15:00",
+        "ArrivalDate": "03/09/2024 09:00",
+        "FreeSeats": 10,
+        "OccupatedSeats": 190,
+        "TotalSeats": 200,
+        "Price": 54999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Japan Airlines",
+        "Id": 21,
+        "InitDest": "Tokyo",
+        "OutgoingDest": "Pariz",
+        "DepartureDate": "05/09/2024 12:00",
+        "ArrivalDate": "05/09/2024 18:00",
+        "FreeSeats": 15,
+        "OccupatedSeats": 185,
+        "TotalSeats": 200,
+        "Price": 45999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      }
+    ],
+    "Reviews": [
+      {
+        "User": "Kazuhiro Tanaka",
+        "Airline": "Japan Airlines",
+        "Title": "Izvanredno iskustvo",
+        "Description": "Svi detalji su bili savršeni. Komforan let i odlična usluga.",
+        "Id": 16,
+        "ImagePath": "/slike/recenzija16.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Yuki Nakamura",
+        "Airline": "Japan Airlines",
+        "Title": "Dobar, ali skup",
+        "Description": "Let je bio dobar, ali cena je previsoka.",
+        "Id": 17,
+        "ImagePath": "/slike/recenzija17.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Hiroshi Suzuki",
+        "Airline": "Japan Airlines",
+        "Title": "Niska usluga",
+        "Description": "Posada nije bila ljubazna, a usluga je mogla biti bolja.",
+        "Id": 18,
+        "ImagePath": "/slike/recenzija18.jpg",
+        "Status": "Odbijena"
+      },
+      {
+        "User": "Sakura Mori",
+        "Airline": "Japan Airlines",
+        "Title": "Komforan let",
+        "Description": "Sedišta su bila udobna, ali kvalitet hrane mogao bi biti bolji.",
+        "Id": 19,
+        "ImagePath": "/slike/recenzija19.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Takumi Yamamoto",
+        "Airline": "Japan Airlines",
+        "Title": "Moglo je bolje",
+        "Description": "Let je kasnio i nije bilo obaveštenja.",
+        "Id": 20,
+        "ImagePath": "/slike/recenzija20.jpg",
+        "Status": "Kreirana"
+      }
+    ]
+  },
+  {
+    "Name": "Emirates",
+    "Adress": "emirates@gmail.com",
+    "ContactInfo": "+971 4 123 4567",
+    "Id": 5,
+    "IsDeleted": false,
+    "Flights": [
+      {
+        "Airline": "Emirates",
+        "Id": 22,
+        "InitDest": "Dubai",
+        "OutgoingDest": "New York",
+        "DepartureDate": "26/08/2024 23:00",
+        "ArrivalDate": "26/08/2024 06:00",
+        "FreeSeats": 15,
+        "OccupatedSeats": 185,
+        "TotalSeats": 200,
+        "Price": 52999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Emirates",
+        "Id": 23,
+        "InitDest": "Dubai",
+        "OutgoingDest": "London",
+        "DepartureDate": "29/08/2024 14:00",
+        "ArrivalDate": "29/08/2024 19:00",
+        "FreeSeats": 20,
+        "OccupatedSeats": 180,
+        "TotalSeats": 200,
+        "Price": 44999.99,
+        "IsDeleted": false,
+        "Status": "Završen"
+      },
+      {
+        "Airline": "Emirates",
+        "Id": 24,
+        "InitDest": "Dubai",
+        "OutgoingDest": "Sydney",
+        "DepartureDate": "01/09/2024 16:00",
+        "ArrivalDate": "02/09/2024 08:00",
+        "FreeSeats": 10,
+        "OccupatedSeats": 190,
+        "TotalSeats": 200,
+        "Price": 59999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Emirates",
+        "Id": 25,
+        "InitDest": "Dubai",
+        "OutgoingDest": "Tokyo",
+        "DepartureDate": "04/09/2024 11:00",
+        "ArrivalDate": "04/09/2024 23:00",
+        "FreeSeats": 25,
+        "OccupatedSeats": 175,
+        "TotalSeats": 200,
+        "Price": 49999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      },
+      {
+        "Airline": "Emirates",
+        "Id": 26,
+        "InitDest": "Dubai",
+        "OutgoingDest": "Paris",
+        "DepartureDate": "07/09/2024 09:00",
+        "ArrivalDate": "07/09/2024 13:00",
+        "FreeSeats": 30,
+        "OccupatedSeats": 170,
+        "TotalSeats": 200,
+        "Price": 41999.99,
+        "IsDeleted": false,
+        "Status": "Aktivan"
+      }
+    ],
+    "Reviews": [
+      {
+        "User": "Ahmed Al-Farsi",
+        "Airline": "Emirates",
+        "Title": "Fantastično iskustvo",
+        "Description": "Svi aspekti putovanja su bili izvanredni. Preporučujem.",
+        "Id": 21,
+        "ImagePath": "/slike/recenzija21.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Fatima Ali",
+        "Airline": "Emirates",
+        "Title": "Vrlo profesionalno",
+        "Description": "Usmereni i profesionalni. Let je bio prijatan.",
+        "Id": 22,
+        "ImagePath": "/slike/recenzija22.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Mohammed Ibrahim",
+        "Airline": "Emirates",
+        "Title": "Previše kasnio",
+        "Description": "Let je kasnio više od 3 sata, što je bilo frustrirajuće.",
+        "Id": 23,
+        "ImagePath": "/slike/recenzija23.jpg",
+        "Status": "Odbijena"
+      },
+      {
+        "User": "Layla Al-Mansoor",
+        "Airline": "Emirates",
+        "Title": "Izvanredno",
+        "Description": "Komforna sedišta i odlična usluga. Vraćam se ponovo.",
+        "Id": 24,
+        "ImagePath": "/slike/recenzija24.jpg",
+        "Status": "Odobrena"
+      },
+      {
+        "User": "Sami Jaber",
+        "Airline": "Emirates",
+        "Title": "Moglo bi biti bolje",
+        "Description": "Kvalitet hrane nije bio na očekivanom nivou.",
+        "Id": 25,
+        "ImagePath": "/slike/recenzija25.jpg",
+        "Status": "Kreirana"
+      }
+    ]
+  },
+  {
+    "Name": "Proba izmena",
+    "Adress": "delicdevelopment@gmail.com",
+    "ContactInfo": "061",
+    "Id": 6,
+    "IsDeleted": true,
+    "Flights": [],
+    "Reviews": []
+  }
+]

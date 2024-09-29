@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SD Air</title>
+    <link href="Styles/index.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="Scrypts/index.js"></script>
+    <script src="Scrypts/navbar.js"></script>
+</head>
+<body class="body">
+    <div class="navbar w-nav">
+        <div class="navbar-logo">
+            <img src="Photos/Airlines/SD Air.jpg" alt="slika kompanije sdair" class="image" />
+        </div>
+        <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+            <a href="#" class="w-nav-link">Početna stranice</a>
+            <a href="avio-kompanije.html" class="w-nav-link">Aviokompanije</a>
+            <a href="login.html" class="nav-link w-nav-link" id="login-link">Prijava</a>
+        </nav>
+    </div>
+    <section class="hero-section">
+        <div class="w-layout-blockcontainer container homepage-container w-container">
+            <div class="filter-div">
+                <div class="destination-filter-div">
+                    <div class="w-form">
+                        <form id="filter-form" name="filter-form" method="get" class="form-2">
+                            <label>Polazna destinacija</label>
+                            <select id="init-destination" name="init-destination" class="input w-select">
+                            </select>
+                            <label>Odredišna destinacija</label>
+                            <select id="outgoing-dest" name="outgoing-dest" class="input w-select">
+                            </select>
+                            <label>Datum polaska</label>
+                            <input type="datetime-local" class="input date-time-input">
+                            <label>Datum dolaska</label>
+                            <input type="datetime-local" class="input date-time-input">
+                            <label id="status-label">Status leta</label>
+                            <select id="flight-status" name="outgoing-dest" class="input w-select">
+                            </select>
+                            <div class="sumbit-buttons">
+                                <input type="submit" data-wait="Please wait..." class="submit-button-2 w-button" value="Pretraži" />
+                                <input type="button" data-wait="Please wait..." class="submit-button-2 sumbit-resttart w-button" id="restart-flights" value="Restartuj" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="select-flight-div">
+                    <div class="select-flight-div1">
+                        <div>Izabrali ste let </div>
+                        <div class="text-block-5" id="select-flight-dest"></div>
+                    </div>
+                    <div class="select-flight-div1">
+                        <div>Id leta</div>
+                        <div class="text-block-5" id="select-flight-id"></div>
+                    </div>
+                    <div class="select-flight-price">
+                        <div class="form-block-2 w-form">
+                            <form id="reservation-flight" name="reservation-flight" method="get" class="form-3">
+                                <div class="div-block-2">
+                                    <div class="text-block-6">Broj putnika</div>
+                                    <input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Unesite broj" type="number" id="seats-number" />
+                                </div>
+                                <div class="select-flight-price-textbox">Cena: </div>
+                                <input type="submit" data-wait="Molimo Vas sačekajte..." class="submit-button-3 w-button" value="Potvrdi" id="reservation-button"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flights-div">
+                <div class="sort-div">
+                    <div class="serch-result-number-div">
+                        <div class="text-block">100</div>
+                        <div class="search-result-div">letova</div>
+                    </div>
+                    <div class="form-block w-form">
+                        <form id="sort-flights" name="sort-flights" method="get" class="form">
+                            <div class="text-block-2">Sortiraj prema</div>
+                            <select id="sort-select" class="select-field w-select">
+                                <option>Rastuce</option>
+                                <option>Opadajuce</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="div-block" id="flights">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

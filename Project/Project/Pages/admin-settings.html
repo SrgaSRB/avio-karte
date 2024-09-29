@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="Styles/admin-settings.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-3.7.0.js"></script>
+    <script src="Scrypts/admin-settings.js"></script>
+    <script src="Scrypts/navbar.js"></script>
+</head>
+<body class="body">
+    <section class="advanced-settings-section">
+        <div class="container">
+            <div class="settings-wrapper">
+                <div class="user-settings">
+                    <div class="title-textblock">Upravljanje korisnicima</div>
+                    <div class="users-filter-list-wrapper-div">
+                        <div class="users-form-block w-form">
+                            <form id="users-search" name="users-search" method="get" class="users-form">
+                                <label for="name">Ime korisnika</label>
+                                <input class="input-text w-input" maxlength="256" name="first-name" placeholder="Ime" type="text" id="users-search-first-name" />
+                                <label for="email">Prezime korisnika</label>
+                                <input class="input-text w-input" maxlength="256" name="last-name" placeholder="Prezime" type="text" id="users-search-last-name" />
+                                <label for="email-2">Rođen godine posle</label>
+                                <input class="input-text dest-add-flight" placeholder="" name="bdayafter" type="datetime-local" id="users-search-bdayafter" />
+                                <label for="email-2">Rođen godine pre</label>
+                                <input class="input-text dest-add-flight" placeholder="" name="bdaybrfore" type="datetime-local" id="users-search-bdaybrfore" />
+                                <input type="submit" data-wait="Please wait..." class="submit-button w-button button-margin" value="Pretraži" />
+                            </form>
+                        </div>
+                        <div class="users-list-block">
+                            <div class="users-sort">
+                                <div class="users-number">
+                                    <div class="text-block-19">100 </div>
+                                    <div>korisnika</div>
+                                </div>
+                                <div class="users-sort-form-block w-form">
+                                    <form id="email-form-8" name="email-form-8" data-name="Email Form 8" method="get" class="users-sort-form">
+                                        <label>Sortiraj prema: </label>
+                                        <select id="name-sort" class="users-sort-name w-select">
+                                            <option value="name-rastuce">Ime rastuce</option>
+                                            <option value="name-opadajuce">Ime opadajuce</option>
+                                            <option value="bday-rastuce">Datumu rodjendana rastuce</option>
+                                            <option value="bday-opadajuce">Datumu rodjenada opadajuce</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="users-list">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-line"></div>
+                <div class="airlines-settings">
+                    <div class="title-textblock">Upravljanje aviokompanijama</div>
+                    <div class="airlines-form-add-list-wrapper-div">
+                        <div class="airlines-form w-form">
+                            <div class="text-block-7">Pretraga</div>
+                            <form id="airlines-search" name="airlines-search" method="get" class="airlines-search-form">
+                                <label for="name-2">Ime aviokompanije</label>
+                                <input class="input-text w-input" maxlength="256" name="name" placeholder="Ime aviokompanije" type="text" id="airline-search-name" />
+                                <label for="email">Adresa aviokompanije</label>
+                                <input class="input-text w-input" maxlength="256" name="email" placeholder="Email Adresa" type="email" id="airline-search-email" />
+                                <label for="field">Kontakt informacije</label>
+                                <input class="input-text w-input" maxlength="256" name="tel" placeholder="Telefon" type="tel" id="airline-search-tel" />
+                                <input type="submit" data-wait="Molimo Vas sačekajte..." class="w-button button-margin" value="Pretraži" />
+                            </form>
+                        </div>
+                        <div class="airline-add-form-block w-form">
+                            <div class="text-block-7">Dodaj novu aviokompaniju</div>
+                            <form id="arlines-add" name="arlines-add" method="get" class="airline-add-form">
+                                <label for="name">Ime aviokompanije</label>
+                                <input class="input-text w-input" maxlength="256" name="name" placeholder="Ima aviokomapnije" type="text" id="airline-add-name" required="" />
+                                <label for="email">Adresa aviokompanije</label>
+                                <input class="input-text w-input" maxlength="256" name="email" placeholder="Email adresa" type="email" id="airline-add-email" required="" />
+                                <label for="field-2">Kontakt informacije</label>
+                                <input class="input-text w-input" maxlength="256" name="tel" placeholder="Telefon" type="tel" id="airline-add-tel" required="" />
+                                <input type="submit" data-wait="Please wait..." class="w-button button-margin" value="Dodaj" />
+                            </form>
+                        </div>
+                        <div class="airlines-list-block">
+                            <div class="edit-airline-form w-form">
+                                <form id="airline-change" name="airline-change" method="get" class="rechange-form">
+                                    <input class="input-rechange w-input" maxlength="256" name="name" placeholder="Ime" type="text" id="arline-select-name" required="" />
+                                    <input class="input-rechange w-input" maxlength="256" name="email" placeholder="Email" type="email" id="airline-select-email" required="" />
+                                    <input class="input-rechange w-input" maxlength="256" name="tel" placeholder="Telefon" type="tel" id="airline-select-phone" required="" />
+                                    <input type="submit" data-wait="Please wait..." class="submit-button-2 w-button" value="Izmeni" />
+                                </form>
+                            </div>
+                            <div class="airlines-list">
+                                <div class="airline-entity">
+                                    <div class="airline-entity-image">
+                                        <img src="" alt="Slika logo-a aviokompanije" />
+                                    </div>
+                                    <div class="airline-ientity-info">
+                                        <div class="text-block-6">AirSerbia</div>
+                                        <div class="airline-entity-contact-div">
+                                            <img src="" alt="Slika telefonske slusalice u vidu ikone-vektora" />
+                                            <a href="tel:+381612188081" class="link">+381612188081</a>
+                                        </div>
+                                        <div class="airline-entity-email-div">
+                                            <img src="" loading="lazy" alt="Slika u vidu ikonice-vektora postanskog pisma koje predstavlja email adresu" />
+                                            <a href="mailto:srdjandelic02@gmail.com" class="link">srdjandelic02@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" id="delete-select-airline" class="button w-button">Obriši aviokompaniju</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-line"></div>
+                <div class="flights-settings">
+                    <div class="title-textblock">Upravljanje letovima</div>
+                    <div class="flights-search-add-list-wrapper-div">
+                        <div class="flights-search-form-block w-form">
+                            <div class="text-block-9">Pretraga</div>
+                            <form id="flight-search" name="flight-search" method="get" class="flights-search-form">
+                                <label for="field-3">Polazna destinacija</label>
+                                <input id="flight-search-init-destination" name="init-destination" class="input-text " type="text" />
+                                <label for="field-4">Odredišna destinacija</label>
+                                <input id="flight-search-outgoing-dest" name="outgoing-dest" class="input-text " type="text" />
+                                <label for="">Datum polaska</label>
+                                <input class="input-text dest-add-flight" type="datetime-local" id="flight-search-departure-date" />
+                                <label for="">Datum dolaska</label>
+                                <input class="input-text dest-add-flight" type="datetime-local" id="flight-search-arrival-date" />
+                                <input type="submit" data-wait="Molimo Vas sačekajte..." class="w-button button-margin" value="Pretraži" />
+                            </form>
+                        </div>
+                        <div class="flights-add-form-block w-form">
+                            <div class="text-block-9">Dodavanje leta</div>
+                            <form id="flight-add" name="flight-add" method="get" class="flights-add-form">
+                                <label for="field-5">Aviokompanija</label>
+                                <select id="flight-add-airline" name="field-5" data-name="Field 5" class="input-text select-dropdown" required="">
+                                </select>
+                                <div class="flight-destination-div">
+                                    <div class="flight-init-dest">
+                                        <label for="name">Polazna destinacija</label>
+                                        <input class="input-text dest-add-flight" maxlength="256" placeholder="" type="text" id="flight-add-init-destination" required="" />
+                                    </div>
+                                    <div class="flight-outgoing-dest">
+                                        <label for="email">Odredišna destinacija</label>
+                                        <input class="input-text dest-add-flight" maxlength="256" type="text" id="flight-add-outgoing-destination" required="" />
+                                    </div>
+                                </div>
+                                <div class="flight-dates">
+                                    <div class="dates-left-div">
+                                        <label for="">Datum i vreme polaska</label>
+                                        <input class="input-text dest-add-flight" placeholder="" type="datetime-local" id="flight-add-departure-date" required="" />
+                                    </div>
+                                    <div class="dates-right-div">
+                                        <label for="">Datum i vreme dolaska</label>
+                                        <input class="input-text dest-add-flight" placeholder="" type="datetime-local" id="flight-add-arrival-date" required="" />
+                                    </div>
+                                </div>
+                                <label for="field-6">Ukupan broj mesta</label>
+                                <input class="input-text w-input" maxlength="256" placeholder="Unesite broj mesta\sedista" type="number" id="flight-add-free-seats" required="" />
+                                <label for="field-7">Cena za jedno mesto</label>
+                                <input class="input-text w-input" maxlength="256" placeholder="Unesite cenu u dinarima" type="number" id="flight-add-price" required="" />
+                                <input type="submit" data-wait="Molimo Vas sačekajte..." class="w-button button-margin" value="Dodaj let" />
+                            </form>
+                        </div>
+                        <div class="flights-list-block">
+                            <div class="flight-form-block w-form">
+                                <form id="flight-change" name="flight-change" method="get" class="edit-flight-form">
+                                    <div class="edit-flight-1st-row">
+                                        <select id="flight-change-airline" class="input-text flights-input select-dropdown" required="">
+                                        </select>
+                                        <input id="flight-change-departure-date" class="input-text flights-input " type="datetime-local" required="" />
+                                        <input id="flight-change-arrival-date" class="input-text flights-input " type="datetime-local" required="" />
+
+                                    </div>
+                                    <div class="edit-flight-2nd-row">
+                                        <input class="input-text flights-input w-input" maxlength="256" placeholder="Cena leta" type="number" id="flight-change-price" required />
+                                        <input class="input-text flights-input w-input" maxlength="256" placeholder="Broj slobodnih mesta" type="number" id="flight-search-free-seats" required="" />
+                                        <select id="Status" name="Status" data-name="Status" class="input-text flights-input select-dropdown">
+                                            <option value="Završen">Završen</option>
+                                            <option value="Otkazan">Otkazan</option>
+                                            <option value="Aktivan">Aktivan</option>
+                                        </select>
+                                    </div>
+                                    <div class="flight-form-buttons">
+                                        <a href="#" class="button-2 w-button" id="flight-change-delete-button">Obrisi</a>
+                                        <input type="submit" data-wait="Please wait..." class="w-button" value="Izmeni" id="change-button" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="flights-list">
+                                <div class="flight-entity">
+                                    <div class="flight-image-div">
+                                        <img src="" alt="Slika aviokomapnije" />
+                                    </div>
+                                    <div class="flight-info">
+                                        <div class="flight-destinations-textblock">Beograd - Nis</div>
+                                        <div class="flight-date-div">
+                                            <img src="Photos/Icons/take-off.png" loading="lazy" alt="" class="Slika avioka kako uzlece sa piste" />
+                                            <div class="flight-init-date-textblock">10/10/2010</div>
+                                            <img src="Photos/Icons/landing.png" alt="Slika aviona kako slece na pistu" class="image-3" />
+                                            <div class="flight-outgoing-date-textblock">10/10/2010</div>
+                                        </div>
+                                        <div class="flight-free-seats-div">
+                                            <div>Slobodna mesta:</div>
+                                            <div class="flight-free-seats-number" id="flight-free-seats">40</div>
+                                        </div>
+                                        <div class="flight-status-div">
+                                            <div>Status: </div>
+                                            <div class="flight-status-textbock" id="flight-status">Aktivan</div>
+                                        </div>
+                                        <div class="flight-piroce-textblock">
+                                            <div>Cena:</div>
+                                            <div class="flight-price" id="flight-price">9000.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-line"></div>
+                <div class="reservation-and-reviews-settings">
+                    <div class="reservations-settings">
+                        <div class="title-textblock">Rezervacije</div>
+                        <div class="reservations-list">
+                            <div class="reservation-entity">
+                                <div class="user-name-div">
+                                    <div>Ime:</div>
+                                    <div class="text-block-13">Srdjan Delic</div>
+                                </div>
+                                <div class="user-username-div">
+                                    <div>Korisničko ime:</div>
+                                    <div class="text-block-13">Srga02</div>
+                                </div>
+                                <div class="reservation-flight">
+                                    <div class="reservation-image-flight-div">
+                                        <img src="" loading="lazy" alt="Slika aviokompanije" />
+                                    </div>
+                                    <div class="reservation-flight-info">
+                                        <div class="reservation-destinations">Beograd - Nis</div>
+                                        <div class="flight-date-div">
+                                            <img src="" alt="Slika aviona kako uzlece sa piste" class="airplane-image" />
+                                            <div class="reservation-init-date">10/10/2010</div>
+                                            <img src="" alt="Slika aviona kako slece na pistu" class="image-3" />
+                                            <div class="reservation-outgoing-date">10/10/2010</div>
+                                        </div>
+                                        <div class="flight-free-seats-div">
+                                            <div>Slobodna mesta:</div>
+                                            <div class="reservation-free-seats">40</div>
+                                        </div>
+                                        <div class="flight-status-div">
+                                            <div>Status: </div>
+                                            <div class="reservation-status">Aktivan</div>
+                                        </div>
+                                        <div class="flight-piroce-textblock">
+                                            <div>Cena:</div>
+                                            <div class="reservation-flight-price">9000.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reservations-buttons-div">
+                            <a href="#" class="reservation-button-delete w-button" id="cancel-reservation">Otkaži rezervaciju</a>
+                            <a href="#" class="reservation-button-approve w-button" id="approve-reservation">Odobri rezervaciju</a>
+                        </div>
+                    </div>
+                    <div class="reviews-ettings">
+                        <div class="title-textblock">Recenzije</div>
+                        <div class="reviews-list">
+                            <div class="review-entity">
+                                <div class="review-user-div">
+                                    <div>Ime:</div>
+                                    <div class="text-block-16">Srdjan Delic</div>
+                                </div>
+                                <div class="review-username-div">
+                                    <div>Korisničko ime:</div>
+                                    <div>Srga02</div>
+                                </div>
+                                <div class="review-airline-div">
+                                    <div class="review-airline-image-div">
+                                        <img src="" loading="lazy" alt="Slika aviokomapnije" class="image-4" />
+                                    </div>
+                                    <div class="review-airline-name-div">
+                                        <div>Za aviokompaniju:</div>
+                                        <div class="text-block-18">AirSERBIA</div>
+                                    </div>
+                                </div>
+                                <div class="review-info-div">
+                                    <div class="review-title-description-div">
+                                        <div class="text-block-17">Dobro putovanje</div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                    </div>
+                                    <div class="review-image-div">
+                                        <img src="" loading="lazy" alt="Slika recenzije koju je dodao kreator recenzije" />
+                                    </div>
+                                </div>
+                                <div class="review-status-div">
+                                    <div>Status:</div>
+                                    <div class="review-status">Kreirana</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews-buttons-div">
+                            <a href="#" class="review-button-delete w-button" id="cancel-review">Obriši recenziju</a>
+                            <a href="#" class="review-button-approve w-button" id="approve-review">Odobri recenziju</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

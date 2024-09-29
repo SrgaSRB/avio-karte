@@ -1,0 +1,65 @@
+[
+  {
+    "User": "novak01",
+    "FlightId": 1,
+    "Id": 1,
+    "PassengerNumbers": 1,
+    "TotalPrice": 14999.99,
+    "IsDeleted": false,
+    "Status": "Kreirana"
+  },
+  {
+    "User": "novak01",
+    "FlightId": 4,
+    "Id": 2,
+    "PassengerNumbers": 2,
+    "TotalPrice": 79999.98,
+    "IsDeleted": false,
+    "Status": "Završena"
+  },
+  {
+    "User": "jovana99",
+    "FlightId": 2,
+    "Id": 3,
+    "PassengerNumbers": 1,
+    "TotalPrice": 15999.99,
+    "IsDeleted": false,
+    "Status": "Otkazana"
+  },
+  {
+    "User": "andrija88",
+    "FlightId": 6,
+    "Id": 4,
+    "PassengerNumbers": 1,
+    "TotalPrice": 49999.99,
+    "IsDeleted": false,
+    "Status": "Kreirana"
+  },
+  {
+    "User": "milica77",
+    "FlightId": 7,
+    "Id": 5,
+    "PassengerNumbers": 1,
+    "TotalPrice": 12999.99,
+    "IsDeleted": false,
+    "Status": "Završena"
+  },
+  {
+    "User": "milica77",
+    "FlightId": 10,
+    "Id": 6,
+    "PassengerNumbers": 1,
+    "TotalPrice": 11999.99,
+    "IsDeleted": false,
+    "Status": "Odobrena"
+  },
+  {
+    "User": "milica77",
+    "FlightId": 1,
+    "Id": 7,
+    "PassengerNumbers": 1,
+    "TotalPrice": 14999.99,
+    "IsDeleted": false,
+    "Status": "Kreirana"
+  }
+]

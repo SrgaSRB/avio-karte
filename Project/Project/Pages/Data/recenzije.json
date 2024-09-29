@@ -1,0 +1,227 @@
+[
+  {
+    "User": "Jovan Jovanović",
+    "Airline": "Air Serbia",
+    "Title": "Odličan let!",
+    "Description": "Usmereni letovi i odlična usluga. Vratiću se ponovo.",
+    "Id": 1,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija1.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Ana Milenković",
+    "Airline": "Air Serbia",
+    "Title": "Prosečno iskustvo",
+    "Description": "Služba za korisnike može biti bolja. Let je bio u redu.",
+    "Id": 2,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija2.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Marko Petrović",
+    "Airline": "Air Serbia",
+    "Title": "Loša iskustva",
+    "Description": "Kasnjenje leta i neprijatna posada. Ne preporučujem.",
+    "Id": 3,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija3.jpg",
+    "Status": "Odbijena"
+  },
+  {
+    "User": "Ivana Novak",
+    "Airline": "Air Serbia",
+    "Title": "Izvanredno iskustvo",
+    "Description": "Vrlo prijatno. Komforni sedišta i ljubazno osoblje.",
+    "Id": 4,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija4.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Petar Radosavljević",
+    "Airline": "Air Serbia",
+    "Title": "Dobro, ali može bolje",
+    "Description": "Kvalitet usluge nije bio na očekivanom nivou. Nisu bili dostupni informacije o letu.",
+    "Id": 5,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija5.jpg",
+    "Status": "Kreirana"
+  },
+  {
+    "User": "Ahmet Yılmaz",
+    "Airline": "Turkish Airlines",
+    "Title": "Odličan let!",
+    "Description": "Let je bio na vreme, a usluga je bila izvanredna.",
+    "Id": 6,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija6.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Elif Demir",
+    "Airline": "Turkish Airlines",
+    "Title": "Vrlo prijatno",
+    "Description": "Usluga je bila dobra, ali su mogla biti bolja sedišta.",
+    "Id": 7,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija7.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Mehmet Kaya",
+    "Airline": "Turkish Airlines",
+    "Title": "Niske usluge",
+    "Description": "Posada nije bila ljubazna, a let je kasnio.",
+    "Id": 8,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija8.jpg",
+    "Status": "Odbijena"
+  },
+  {
+    "User": "Ayşe Çelik",
+    "Airline": "Turkish Airlines",
+    "Title": "Udoban let",
+    "Description": "Komforni sedišta i odlična hrana.",
+    "Id": 9,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija9.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Ali Vural",
+    "Airline": "Turkish Airlines",
+    "Title": "Dobar, ali može bolje",
+    "Description": "Let je bio dobar, ali sam imao problema sa rezervacijom.",
+    "Id": 10,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija10.jpg",
+    "Status": "Kreirana"
+  },
+  {
+    "User": "Milan Kostić",
+    "Airline": "SD Air",
+    "Title": "Brz i efikasan let",
+    "Description": "Brza usluga i odlična tačnost. Preporučujem.",
+    "Id": 11,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija11.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Dragana Janković",
+    "Airline": "SD Air",
+    "Title": "Prosečno iskustvo",
+    "Description": "Nema ništa posebno, ali je sve bilo u redu.",
+    "Id": 12,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija12.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Jelena Šarić",
+    "Airline": "SD Air",
+    "Title": "Neprijatno",
+    "Description": "Posada nije bila ljubazna i let je kasnio.",
+    "Id": 13,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija13.jpg",
+    "Status": "Odbijena"
+  },
+  {
+    "User": "Stefan Ilić",
+    "Airline": "SD Air",
+    "Title": "Udoban let",
+    "Description": "Komforni sedišta i dobar kvalitet usluge.",
+    "Id": 14,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija14.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Ivana Mladenović",
+    "Airline": "SD Air",
+    "Title": "Moglo je bolje",
+    "Description": "Neke usluge nisu bile na očekivanom nivou.",
+    "Id": 15,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija15.jpg",
+    "Status": "Kreirana"
+  },
+  {
+    "User": "Kazuhiro Tanaka",
+    "Airline": "Japan Airlines",
+    "Title": "Izvanredno iskustvo",
+    "Description": "Svi detalji su bili savršeni. Komforan let i odlična usluga.",
+    "Id": 16,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija16.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Yuki Nakamura",
+    "Airline": "Japan Airlines",
+    "Title": "Dobar, ali skup",
+    "Description": "Let je bio dobar, ali cena je previsoka.",
+    "Id": 17,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija17.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Hiroshi Suzuki",
+    "Airline": "Japan Airlines",
+    "Title": "Niska usluga",
+    "Description": "Posada nije bila ljubazna, a usluga je mogla biti bolja.",
+    "Id": 18,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija18.jpg",
+    "Status": "Odbijena"
+  },
+  {
+    "User": "Sakura Mori",
+    "Airline": "Japan Airlines",
+    "Title": "Komforan let",
+    "Description": "Sedišta su bila udobna, ali kvalitet hrane mogao bi biti bolji.",
+    "Id": 19,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija19.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Takumi Yamamoto",
+    "Airline": "Japan Airlines",
+    "Title": "Moglo je bolje",
+    "Description": "Let je kasnio i nije bilo obaveštenja.",
+    "Id": 20,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija20.jpg",
+    "Status": "Kreirana"
+  },
+  {
+    "User": "Ahmed Al-Farsi",
+    "Airline": "Emirates",
+    "Title": "Fantastično iskustvo",
+    "Description": "Svi aspekti putovanja su bili izvanredni. Preporučujem.",
+    "Id": 21,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija21.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Fatima Ali",
+    "Airline": "Emirates",
+    "Title": "Vrlo profesionalno",
+    "Description": "Usmereni i profesionalni. Let je bio prijatan.",
+    "Id": 22,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija22.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Mohammed Ibrahim",
+    "Airline": "Emirates",
+    "Title": "Previše kasnio",
+    "Description": "Let je kasnio više od 3 sata, što je bilo frustrirajuće.",
+    "Id": 23,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija23.jpg",
+    "Status": "Odbijena"
+  },
+  {
+    "User": "Layla Al-Mansoor",
+    "Airline": "Emirates",
+    "Title": "Izvanredno",
+    "Description": "Komforna sedišta i odlična usluga. Vraćam se ponovo.",
+    "Id": 24,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija24.jpg",
+    "Status": "Odobrena"
+  },
+  {
+    "User": "Sami Jaber",
+    "Airline": "Emirates",
+    "Title": "Moglo bi biti bolje",
+    "Description": "Kvalitet hrane nije bio na očekivanom nivou.",
+    "Id": 25,
+    "ImagePath": "/Pages/Photos/Reviews/recenzija25.jpg",
+    "Status": "Kreirana"
+  }
+]

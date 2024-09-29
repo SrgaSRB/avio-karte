@@ -1,0 +1,171 @@
+﻿.w-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #1c66b1;
+    border: 0;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.hero-section {
+    height: 90vh;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    height: 100%;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.div-color {
+    background-color: #1c66b1;
+    min-width: 50%;
+}
+
+.div-form {
+    border: 2px solid #1c66b1;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+}
+
+.div-wrapper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+}
+
+.submit-button {
+    background-color: #1c66b1;
+}
+
+.link {
+    color: #000;
+    text-align: right;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.body {
+    line-height: 1.4;
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+}
+
+.create-user-acc {
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.button {
+    background-color: #1c66b1;
+    border-radius: 20px;
+}
+
+.form-block {
+    height: 80%;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.form-label {
+    font-size: .8rem;
+}
+
+.input-form, .select-form {
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.select-form {
+    height: 30px;
+}
+
+.date-input {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.w-button:hover {
+    background-color: #01abf1;
+}
+
+.navbar {
+    background-color: #fff;
+    justify-content: center;
+    align-items: flex-end;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    inset: 0% 0% auto;
+    box-shadow: 0 1px 10px #0003;
+}
+
+.navbar-logo {
+    width: 140px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    inset: auto 0% 0%;
+}
+
+.nav-menu {
+    background-color: #fff;
+    flex: 1;
+    align-self: flex-end;
+    font-size: 1.3rem;
+    position: sticky;
+    width: 140px;
+    top: 0;
+}
+
+.w-nav-link {
+    vertical-align: top;
+    color: #222;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.nav-link {
+    float: right;
+}
